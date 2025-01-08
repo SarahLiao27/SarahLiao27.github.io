@@ -47,9 +47,11 @@ const VideoCarousel = () => {
           return (
             <Carousel.Item key={videoObj.id}>
               <ReactPlayer
+                key={activeIndex}
                 url={videoObj.src}
                 pip={true}
                 controls={true}
+                muted={true}
                 playing={activeIndex === idx}
                 onEnded={handleVideoEnded}
               />

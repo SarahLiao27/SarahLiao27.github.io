@@ -1,8 +1,10 @@
 .carousel {
-    width: 600px;
-    /* height: 800px !important;  */
+    width: 620px;
     margin: auto;
+    position: relative;
+    height: 100%; 
 }
+
 
 .carousel-control-prev {
     height: 310px;

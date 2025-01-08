@@ -1,0 +1,14 @@
+.HomePage {
+    margin-top: 2rem;
+    font-family: "Verdana", sans-serif;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+
+  
