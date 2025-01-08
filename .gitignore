@@ -1,0 +1,9 @@
+# node, vite
+node_modules/
+client/*.js
+build/
+dist/
+.env*
+
+# mac
+.DS_Store

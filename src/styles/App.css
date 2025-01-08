@@ -1,0 +1,74 @@
+:root {
+    --primary-pink: #fb9ac3;
+    --primary-yellow: #fadb77;
+    --primary-purple: #BC87ED;
+    --primary-dark: #240d4a;
+    --primary-light: #fef4fa;
+    --accent-pink: #f7729a;
+    --accent-purple: #7F41A9;
+    --shadow-color: rgba(0, 0, 0, 0.08);
+  }
+
+body {
+    background-color: var(--primary-light) !important;
+    font-family: "Georgia", serif;
+}
+
+.App {
+    text-align: center;
+    color: var(--primary-pink) !important;
+    margin-top: 5rem;
+}
+
+
+/* Navbar Styles */
+.navbar-custom {
+    overflow: hidden;
+    /* background-color: var(--primary-purple) !important;  */
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+.navbar-container {
+    /* display: flex;
+    justify-content: space-between; 
+    align-items: center;  */
+    padding: 0.5rem 1rem;
+}
+.navbar-brand {
+    color: var(--primary-dark) !important;
+    font-family: "Georgia", serif;
+    text-decoration: none;
+    font-size: 1.25rem !important;
+}
+
+/* Link Styles */
+.page-links {
+    display: flex;
+    gap: 2rem;
+    /* align-items: center; */
+}
+a {
+    color: var(--primary-dark) !important;
+    font-family: "Georgia", serif;
+    text-decoration: none !important;
+    font-size: 1.25rem;
+}
+a:hover{
+    color: var(--primary-purple) !important;
+    font-family: "Georgia", serif;
+    text-decoration: none !important;
+    font-size: 1.25rem;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-container {
+        padding: 0.5rem;
+    }
+  
+    .page-links {
+        display: flex;
+        gap: 1rem;
+    }
+}
