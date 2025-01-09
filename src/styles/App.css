@@ -10,7 +10,14 @@
   }
 
 body {
-    background-color: var(--primary-light) !important;
+    background-color: #edb6c8 !important;
+
+    background-image: url('/src/components/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
     font-family: "Georgia", serif;
     margin-left: 30px !important;
     margin-right: 30px !important;
@@ -18,7 +25,7 @@ body {
 
 .App {
     text-align: center;
-    color: var(--primary-pink) !important;
+    color: var(--primary-light) !important;
     /* margin-top: 5rem; */
 }
 
@@ -75,4 +82,6 @@ a:hover{
         display: flex;
         gap: 1rem;
     }
+
+    
 }
