@@ -1,7 +1,7 @@
 :root {
     --primary-pink: #fb9ac3;
     --primary-yellow: #fadb77;
-    --primary-purple: #BC87ED;
+    --primary-purple: #ae72e7;
     --primary-dark: #240d4a;
     --primary-light: #fef4fa;
     --accent-pink: #f7729a;
@@ -11,7 +11,6 @@
 
 body {
     background-color: #edb6c8 !important;
-
     background-image: url('/src/components/images/background.jpg');
     background-size: cover;
     background-position: center;
@@ -66,7 +65,7 @@ a {
     font-size: 1.5rem;
 }
 a:hover{
-    color: var(--primary-purple) !important;
+    color: var(--accent-pink) !important;
     font-family: "Georgia", serif;
     text-decoration: none !important;
     font-size: 1.5rem;
