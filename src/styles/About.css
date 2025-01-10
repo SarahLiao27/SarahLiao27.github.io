@@ -19,7 +19,7 @@
 } */
 
 .text-container {
-    margin-top: 10px;
+    margin-top: 10vh;
     margin-left: 50px;
     width: 90vh;
 }
@@ -28,4 +28,44 @@
     font-size: 35px;
     margin-bottom: 40px;
     text-align: left;
+}
+
+.icon-container {
+    display: flex;  
+    justify-content: center;
+    align-items: center;   
+    justify-content: flex-start
+}
+
+.gmail-container img {
+    max-width: 120px;
+    transition: transform 0.3s ease;
+}
+
+.linkedin-container img {
+    max-width: 120px;
+    margin-left: 20px;
+    transition: transform 0.2s ease;
+}
+
+.icon-container img:hover {
+    transform: translateY(-10px); /* Moves the icon up by 5px */
+}
+
+.About button {
+    border: none;
+    border-radius: 20px;
+    background-color: var(--primary-light);
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: "Verdana", sans-serif;
+    /* position: relative; */
+    margin-top: 30px;
+    float: left;  
+}
+
+.About button:hover {
+    background-color: var(--primary-pink);
+    color: var(--primary-light);
+    
 }
