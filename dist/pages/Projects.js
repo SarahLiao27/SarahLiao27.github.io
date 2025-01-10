@@ -1,6 +1,5 @@
-import React from "react";
+import { jsx as _jsx } from "react/jsx-runtime";
 const Projects = () => {
-    return (React.createElement("div", null,
-        React.createElement("h1", null, "projects page")));
+    return (_jsx("div", { children: _jsx("h1", { children: "projects page" }) }));
 };
 export default Projects;

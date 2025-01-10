@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { jsx as _jsx } from "react/jsx-runtime";
+import { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import ReactPlayer from 'react-player';
 import "../styles/VideoCarousel.css";
@@ -30,10 +31,8 @@ const VideoCarousel = () => {
     const handleVideoEnded = () => {
         setActiveIndex((prevIndex) => (prevIndex + 1) % videoProperties.length);
     };
-    return (React.createElement("div", null,
-        React.createElement(Carousel, { activeIndex: activeIndex, onSelect: handleCarouselChange, interval: null }, videoProperties.map((videoObj, idx) => {
-            return (React.createElement(Carousel.Item, { key: videoObj.id },
-                React.createElement(ReactPlayer, { key: activeIndex, url: videoObj.src, pip: true, controls: true, muted: true, playing: activeIndex === idx, onEnded: handleVideoEnded })));
-        }))));
+    return (_jsx("div", { children: _jsx(Carousel, Object.assign({ activeIndex: activeIndex, onSelect: handleCarouselChange, interval: null }, { children: videoProperties.map((videoObj, idx) => {
+                return (_jsx(Carousel.Item, { children: _jsx(ReactPlayer, { url: videoObj.src, pip: true, controls: true, muted: true, playing: activeIndex === idx, onEnded: handleVideoEnded }, activeIndex) }, videoObj.id));
+            }) })) }));
 };
 export default VideoCarousel;

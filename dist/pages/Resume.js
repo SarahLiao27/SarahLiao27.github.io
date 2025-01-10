@@ -1,9 +1,6 @@
-import React from "react";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import "../styles/Resume.css";
 const Resume = () => {
-    return (React.createElement("div", { className: "Resume" },
-        React.createElement("a", { href: "https://drive.google.com/file/d/1XobhGWOoBgJ0w1ifE5fXDEKJe7oufiNA/view?usp=sharing", target: "_blank" }, "Resume"),
-        React.createElement("iframe", { src: "https://drive.google.com/file/d/1XobhGWOoBgJ0w1ifE5fXDEKJe7oufiNA/preview" })));
+    return (_jsxs("div", Object.assign({ className: "Resume" }, { children: [_jsx("a", Object.assign({ href: "https://drive.google.com/file/d/1XobhGWOoBgJ0w1ifE5fXDEKJe7oufiNA/view?usp=sharing", target: "_blank" }, { children: "Resume" })), _jsx("iframe", { src: "https://drive.google.com/file/d/1XobhGWOoBgJ0w1ifE5fXDEKJe7oufiNA/preview" })] })));
 };
 export default Resume;
-// https://drive.google.com/file/d/1XobhGWOoBgJ0w1ifE5fXDEKJe7oufiNA/view?usp=sharing
