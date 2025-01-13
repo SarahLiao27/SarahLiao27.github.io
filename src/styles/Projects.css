@@ -1,6 +1,4 @@
 .Projects {
-    /* display: flex; */
-    /* justify-content: flex-end; */
     font-family: "Verdana", sans-serif;
 }
 
@@ -8,8 +6,8 @@
     display: flex;  
     justify-content: center;
     align-items: center;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
     margin-top: 8vh;
 }
 
@@ -17,16 +15,15 @@
     display: flex;  
     justify-content: center;
     align-items: center;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
     margin-top: 8vh;
 }
 
 .Projects .text-container {
-    width: 110vh;
-    margin-left: 20px;
+    width: 77vw;
+    margin-left: 2vw;
 }
-
 
 .Projects button {
     color: var(--primary-light) !important;
@@ -41,13 +38,13 @@
     color: var(--primary-pink) !important;
     border-style: solid;
     border-color: var(--primary-light);
-    border-radius: 15px;
-    border-width: 5px;
+    border-radius: 0.5em;
+    border-width: 0.2em;
     background-color: var(--primary-light); 
 }
 
 .Projects .text-container h1 {
-    margin-bottom: 20px;
+    margin-bottom: 20vh;
     text-decoration: underline;
 }
 
@@ -60,13 +57,5 @@
 }
 
 .Projects .carousel-container {
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    /* align-items: center; */
-    /* padding: 20px; */
-    /* margin-top: 20px; */
-
-    
     width:100%;
 }
-

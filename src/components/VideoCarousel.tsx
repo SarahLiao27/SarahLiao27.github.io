@@ -15,11 +15,9 @@ interface VideoCarouselProps {
 
 const VideoCarousel: React.FC<VideoCarouselProps> = ({ videos }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-
   const handleCarouselChange = (newIndex: number) => {
     setActiveIndex(newIndex);
   };
-
   const handleVideoEnded = () => {
     setActiveIndex((prevIndex) => (prevIndex + 1) % videos.length);
   };
@@ -49,8 +47,6 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videos }) => {
         })}
       </Carousel>
     </div>
-
-
   );
 };
 export default VideoCarousel;

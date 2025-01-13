@@ -18,6 +18,3 @@ const Resume = () => {
 };
 
 export default Resume;
-
-// https://drive.google.com/file/d/1XobhGWOoBgJ0w1ifE5fXDEKJe7oufiNA/view?usp=sharing
-

@@ -99,7 +99,6 @@ const Projects = () => {
                     <h4>Frontend: React.js, TypeScript, CSS</h4>
                 </div>
             </div>
-            
         </div> 
     );
 };

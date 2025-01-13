@@ -5,28 +5,23 @@
 .About .image-and-text-container {
     display: flex;  
     justify-content: center;
-    align-items: center;      
+    align-items: center;  
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 10vh;
 }
 
 .About .image-container img {
     width: 100%;  
-    margin-top: 10vh; 
-    /* margin-right:200px; */
-    /* margin-right: 30px; */
 }
-/* .image-container {
-    display: inline-block;
-} */
 
 .About .text-container {
-    margin-top: 10vh;
-    margin-left: 50px;
-    width: 90vh;
+    margin-left: 3vw;
+    width: 60vw;
 }
 
-.About .text-container h1 {
-    font-size: 35px;
-    margin-bottom: 40px;
+.About .text-container h2 {
+    margin-bottom: 3.5vh;
     text-align: left;
 }
 
@@ -38,29 +33,28 @@
 }
 
 .About .gmail-container img {
-    max-width: 120px;
+    max-width: 7vw;
     transition: transform 0.3s ease;
 }
 
 .About .linkedin-container img {
-    max-width: 120px;
-    margin-left: 20px;
-    transition: transform 0.2s ease;
+    max-width: 7vw;
+    margin-left: 2vw;
+    transition: transform 0.3s ease;
 }
 
 .About .icon-container img:hover {
-    transform: translateY(-10px); /* Moves the icon up by 5px */
+    transform: translateY(-1vh);
 }
 
 .About button {
     border: none;
-    border-radius: 20px;
+    border-radius: 0.75em;
     background-color: var(--primary-light);
-    padding: 10px 15px;
+    padding: 0.5em 0.8em;
     font-size: 20px;
     font-family: "Verdana", sans-serif;
-    /* position: relative; */
-    margin-top: 30px;
+    margin-top: 3vh;
     float: left;  
 }
 

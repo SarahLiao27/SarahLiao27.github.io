@@ -14,7 +14,6 @@ interface ImageCarouselProps {
 
 const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {  
   const [activeIndex, setActiveIndex] = useState(0);
-
   const handleCarouselChange = (newIndex: number) => {
     setActiveIndex(newIndex);
   };
@@ -25,7 +24,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
         activeIndex={activeIndex} 
         onSelect={handleCarouselChange}
       >
-        {images.map((imageObj, idx) => {
+        {images.map((imageObj) => {
           return (
             <Carousel.Item key={imageObj.id}>
                 <img
@@ -36,8 +35,6 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
         })}
       </Carousel>
     </div>
-
-
   );
 };
 export default ImageCarousel;

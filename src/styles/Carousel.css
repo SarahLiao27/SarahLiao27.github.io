@@ -1,6 +1,21 @@
+/* Overalll Carousel Styles */
+.carousel .carousel-control-prev-icon {
+    visibility: hidden;
+}
+.carousel:hover .carousel-control-prev-icon {
+    visibility: visible;
+}
+
+.carousel .carousel-control-next-icon {
+    visibility: hidden;
+}
+.carousel:hover .carousel-control-next-icon {
+    visibility: visible;
+}
+
+/* Image Carousel Styles */
 .image-carousel .carousel {
     width: 100%;
-    /* max-width: 5000px; */
     margin: auto;
     position: relative;
     height: 100%; 
@@ -12,9 +27,7 @@
     object-fit: cover;  
 }
 
-
-
-
+/* Video Carousel Styles */
 .video-carousel .carousel {
     width: 100%;
     max-width: 620px;
@@ -35,22 +48,4 @@
 
 .video-carousel .carousel-control-next {
     height: 310px;
-}
-
-
-
-
-
-.carousel .carousel-control-prev-icon {
-    visibility: hidden;
-}
-.carousel:hover .carousel-control-prev-icon {
-    visibility: visible;
-}
-
-.carousel .carousel-control-next-icon {
-    visibility: hidden;
-}
-.carousel:hover .carousel-control-next-icon {
-    visibility: visible;
 }
