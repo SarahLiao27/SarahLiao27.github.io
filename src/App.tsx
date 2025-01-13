@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -31,21 +31,21 @@ const App: React.FC = () => {
                     aria-label="Page Links"
                 >
                     <a
-                        href="/about"
+                        href="#/about"
                         className="about"
                         aria-label="About Page Link"
                     >
                         About
                     </a>
                     <a
-                      href="/projects"
+                      href="#/projects"
                       className="projects"
                       aria-label="Projects Page Link"
                     >
                       Projects
                     </a>
                     <a
-                      href="/resume"
+                      href="#/resume"
                       className="resume"
                       aria-label="Resume Page Link"
                     >
