@@ -2,13 +2,13 @@
     font-family: "Verdana", sans-serif;
 }
 
-.image-and-text-container {
+.About .image-and-text-container {
     display: flex;  
     justify-content: center;
     align-items: center;      
 }
 
-.image-container img {
+.About .image-container img {
     width: 100%;  
     margin-top: 10vh; 
     /* margin-right:200px; */
@@ -18,37 +18,37 @@
     display: inline-block;
 } */
 
-.text-container {
+.About .text-container {
     margin-top: 10vh;
     margin-left: 50px;
     width: 90vh;
 }
 
-.text-container h4 {
+.About .text-container h1 {
     font-size: 35px;
     margin-bottom: 40px;
     text-align: left;
 }
 
-.icon-container {
+.About .icon-container {
     display: flex;  
     justify-content: center;
     align-items: center;   
     justify-content: flex-start
 }
 
-.gmail-container img {
+.About .gmail-container img {
     max-width: 120px;
     transition: transform 0.3s ease;
 }
 
-.linkedin-container img {
+.About .linkedin-container img {
     max-width: 120px;
     margin-left: 20px;
     transition: transform 0.2s ease;
 }
 
-.icon-container img:hover {
+.About .icon-container img:hover {
     transform: translateY(-10px); /* Moves the icon up by 5px */
 }
 

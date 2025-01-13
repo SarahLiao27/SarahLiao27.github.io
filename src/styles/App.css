@@ -11,7 +11,7 @@
 
 body {
     background-color: #edb6c8 !important;
-    background-image: url('/src/components/images/background.jpg');
+    background-image: url('/images/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

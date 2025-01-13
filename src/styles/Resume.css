@@ -3,27 +3,33 @@
     /* font-family: "Verdana", sans-serif; */
 }
 
-iframe {
+.Resume iframe {
     margin-top: 10px;
     width: 100vh;
     height: 100vh;  
 }
 
 .Resume a {
-    color: var(--primary-light) !important;
-    font-family: "Verdana", sans-serif;
-    text-decoration: none !important;
-    display: block;
-    font-size: 38px;
-
-
+    display: flex;
+    justify-content: center;  
+    align-items: center;
 }
 
-.Resume a:hover {
+.Resume button {
     color: var(--primary-light) !important;
     font-family: "Verdana", sans-serif;
-    text-decoration: none !important;
+    text-decoration: underline;
     display: block;
     font-size: 38px;
-    font-weight: bold !important;
+    background-color: transparent;
+    border-style: none;
+}
+
+.Resume button:hover {
+    color: var(--primary-pink) !important;
+    border-style: solid;
+    border-color: var(--primary-light);
+    border-radius: 15px;
+    border-width: 5px;
+    background-color: var(--primary-light); 
 }

@@ -1,0 +1,72 @@
+.Projects {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    font-family: "Verdana", sans-serif;
+}
+
+.Projects .bearly-used {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 8vh;
+}
+
+.Projects .personal-website {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 8vh;
+}
+
+.Projects .text-container {
+    width: 110vh;
+    margin-left: 20px;
+}
+
+
+.Projects button {
+    color: var(--primary-light) !important;
+    font-family: "Verdana", sans-serif;
+    text-decoration: underline;
+    font-size: 34px; 
+    background-color: transparent;
+    border-style: none;
+}
+
+.Projects button:hover {
+    color: var(--primary-pink) !important;
+    border-style: solid;
+    border-color: var(--primary-light);
+    border-radius: 15px;
+    border-width: 5px;
+    background-color: var(--primary-light); 
+}
+
+.Projects .text-container h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.Projects .text-container h3 {
+    text-align: left;
+}
+
+.Projects .text-container h4 {
+    text-align: left;
+}
+
+.Projects .carousel-container {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* padding: 20px; */
+    /* margin-top: 20px; */
+
+    
+    width:100%;
+}
+

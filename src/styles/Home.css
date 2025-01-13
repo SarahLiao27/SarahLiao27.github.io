@@ -10,7 +10,7 @@
     /* position: relative; */
 }
 
-.carousel-container {
+.Home .carousel-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,8 @@
     margin-top: 1.5vh;
     width:100%;
 }
+
+
 
 /* .video-text-container {
     margin-top: 0px;
