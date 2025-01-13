@@ -7,7 +7,7 @@
     --accent-pink: #f7729a;
     --accent-purple: #7F41A9;
     --shadow-color: rgba(0, 0, 0, 0.08);
-  }
+}
 
 body {
     background-color: #edb6c8 !important;
@@ -20,6 +20,13 @@ body {
     font-family: "Georgia", serif;
     margin-left: 1.5vw !important;
     margin-right: 1.5vw !important;
+
+    transform: scale(0.9);
+    transform-origin: top;
+}
+
+html {
+    font-size: 90%;
 }
 
 .App {
