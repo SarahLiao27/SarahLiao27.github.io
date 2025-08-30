@@ -11,6 +11,15 @@
     margin-top: 8vh;
 }
 
+.Projects .daily-ui {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 8vh;
+}
+
 .Projects .personal-website {
     display: flex;  
     justify-content: center;
