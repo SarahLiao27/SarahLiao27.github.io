@@ -7,7 +7,9 @@ import Img5 from "/images/ownlistingpage.png";
 import Img6 from "/images/userprofilepage.png";
 import Img7 from "/images/home.png";
 import Img8 from "/images/about.png";
-import Img10 from "/images/resume.png";
+import Img9 from "/images/resume.png";
+import Img10 from "/images/001 Sign Up.png";
+import Img11 from "/images/002 Credit Card Checkout.png";
 import "../styles/Projects.css";
 
 const Projects = () => {
@@ -58,8 +60,21 @@ const Projects = () => {
         { 
             id: 3,
             title: "resume page",
+            src: Img9
+        },
+    ]
+
+    const dailyUI = [
+        {
+            id: 10,
+            title: "001 sign up",
             src: Img10
         },
+        {
+            id: 11,
+            title: "002 credit card checkout",
+            src: Img11
+        }
     ]
 
     return (
@@ -83,6 +98,22 @@ const Projects = () => {
                 </div> 
             </div>
 
+            <div className="daily-ui"> 
+                <div className="carousel-container">
+                    <ImageCarousel images={dailyUI}/>
+                </div>
+
+                <div className="text-container"> 
+                    <a>
+                        <button>
+                            Daily UI
+                        </button>
+                    </a>
+
+                    <h3>Practicing, learning, and experimenting with Figma by designing UI for prompts provided by Daily UI.</h3>
+                </div>
+            </div>
+
             <div className="personal-website"> 
                 <div className="carousel-container">
                     <ImageCarousel images={personalWebsite}/>
@@ -99,6 +130,7 @@ const Projects = () => {
                     <h4>Frontend: React.js, TypeScript, CSS</h4>
                 </div>
             </div>
+
         </div> 
     );
 };
